@@ -541,7 +541,7 @@ void cybermon_qwriter::tls_server_hello(const context_ptr cp,
 }
 
 void cybermon_qwriter::tls_certificates(const context_ptr cp,
-					 const std::vector<std::vector<uint8_t>>& certs,
+					 const std::vector<std::vector<uint8_t> >& certs,
 					 const timeval& tv)
 {
 	try {
